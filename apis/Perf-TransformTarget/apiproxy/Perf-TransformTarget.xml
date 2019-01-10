@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="4" name="Perf-TransformTarget">
+    <Basepaths>/perf/v1/info</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1546996323694</CreatedAt>
+    <CreatedBy>madhans@google.com</CreatedBy>
+    <Description>Perf Testing proxy that transforms target</Description>
+    <DisplayName>Perf-TransformTarget</DisplayName>
+    <LastModifiedAt>1547007658347</LastModifiedAt>
+    <LastModifiedBy>madhans@google.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:c3587479299b7b2acabf25fa24fff36b23af30b3ecdf4ce02a90ef63bd268faa1da98122d2a8f625094c9c311d4e7246dc013d75eb6eed9ef4014f4e4df97ee6</ManifestVersion>
+    <Policies>
+        <Policy>AssignMessage.DisablePathCopy</Policy>
+        <Policy>AssignMessageTargetPath</Policy>
+        <Policy>OAuthTokenVerify</Policy>
+        <Policy>PostProcessSlideResponse</Policy>
+        <Policy>Quota</Policy>
+        <Policy>SpikeArrest</Policy>
+        <Policy>XMLToJSON</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://PostProcessSlideResponse.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>HTTPBin</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

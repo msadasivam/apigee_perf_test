@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="AssignMessage.DisablePathCopy" version="SHA-512:01dca862caf4d88ebe88b98b955b27848e301c540267a981814ab870bb06553350299ebf1e9e844869587a7e738d667d1cc320eb976e4661b35ebd2f494046d4"/>
+        <VersionInfo resourceName="AssignMessageTargetPath" version="SHA-512:e386c73e0f78709db147e1d9f1b38450d43aa56dfaafbcfcc84e824e096daa942639466649dc8e6ba69be4a6257aa04926d9d2fdaf108eebf8f6e6157717114d"/>
+        <VersionInfo resourceName="OAuthTokenVerify" version="SHA-512:4c2c5aeaec42fed57255001792bc110515552c7adbb783f5c4c408ae26775777cb6272aa5032b0bd2dd318607e7b1c38d133e77fbba2dbfb58d6a206946aa6ea"/>
+        <VersionInfo resourceName="PostProcessSlideResponse" version="SHA-512:d7420426fde8bae9756be41ffb9f4563dddaec75a41629b0d97b06f869fc0d72475beef6207da439f9f4fb5b085d82437e850ba88eb244731a7414e4037a299e"/>
+        <VersionInfo resourceName="Quota" version="SHA-512:d701fea640d3962b81e48aaa8f991d77893101506c274282b4f5bf7e4325efaec309fdd4688bd21cdcdb020133d36d8f5ad946d54f5028186a57ab742cd717c6"/>
+        <VersionInfo resourceName="SpikeArrest" version="SHA-512:fb7e300392f9f260e8f6d494abb14721b925d7f843391fee34a92ce7711fc3f82739ab8e6467db58c223128b60882964128dcea38a4d9ff8e66abe82f5230467"/>
+        <VersionInfo resourceName="XMLToJSON" version="SHA-512:dcab1fb1714b82a6fae7f3d5d0e3235572f2305e61e4e9db156f15921156325fe82389b4b7ba3bbaacef67afdc741138b68a8d8dc749cbc12f13c7d5138fb742"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:e50c907f66b714fb736deb68dec41849751ea188aa7e020106bb73f8bc26d1cd36066511a8d9932125755009c0450add16ec788bacb0520a64ce93662ae1e527"/>
+    </ProxyEndpoints>
+    <Resources>
+        <VersionInfo resourceName="jsc://PostProcessSlideResponse.js" version="SHA-512:7256e812aef0a26f60bec1b3018ae2733f4cafcba5b82162e0b414a4ab142b7344b21c72aaf7a0c37307129c0139291b2dffb3180a783c9fb3d898bf907096c1"/>
+    </Resources>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="HTTPBin" version="SHA-512:719b4374a63d4dad71d2714161332a546dc0dbd111135528d93d8cb689edc0d47e0396b237d4ef635b4f01b41a5b09276c3c0f32e0304a4a15d7862fe88505d4"/>
+    </TargetEndpoints>
+</Manifest>

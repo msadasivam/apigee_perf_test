@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SpikeArrest async="false" continueOnError="false" enabled="true" name="SpikeArrest">
+    <DisplayName>SpikeArrest</DisplayName>
+    <Properties/>
+    <Identifier ref="request.header.x-id"/>
+    <MessageWeight ref="request.header.x-weight"/>
+    <Rate>1000ps</Rate>
+</SpikeArrest>

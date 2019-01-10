@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="Perf-NoTarget">
+    <Basepaths>/perf/v1/info</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1546990561289</CreatedAt>
+    <CreatedBy>madhans@google.com</CreatedBy>
+    <Description>Perf Testing proxy with no backend to assess raw infra capacity</Description>
+    <DisplayName>Perf-NoTarget</DisplayName>
+    <LastModifiedAt>1546990948018</LastModifiedAt>
+    <LastModifiedBy>madhans@google.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:b316d8bc37826a9788157e46ff9b00abf332df5a54d9236ce13a77bad2e4262a68164fcfaa36efc6bc24d40428a3f854075a73c47273131f0f37abde439346a9</ManifestVersion>
+    <Policies/>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints/>
+</APIProxy>

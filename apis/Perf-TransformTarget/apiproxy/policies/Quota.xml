@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Quota async="false" continueOnError="false" enabled="true" name="Quota" type="calendar">
+    <DisplayName>Quota</DisplayName>
+    <Properties/>
+    <Allow count="200000" countRef="request.header.allowed_quota"/>
+    <Interval ref="request.header.quota_count">2</Interval>
+    <Distributed>false</Distributed>
+    <Synchronous>false</Synchronous>
+    <TimeUnit ref="request.header.quota_timeout">minute</TimeUnit>
+    <StartTime>2019-1-9 12:00:00</StartTime>
+    <AsynchronousConfiguration>
+        <SyncIntervalInSeconds>20</SyncIntervalInSeconds>
+        <SyncMessageCount>5</SyncMessageCount>
+    </AsynchronousConfiguration>
+</Quota>

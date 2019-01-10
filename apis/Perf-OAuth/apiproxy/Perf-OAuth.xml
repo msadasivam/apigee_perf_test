@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="2" name="Perf-OAuth">
+    <Basepaths>/oauth/client_credential</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1547005824212</CreatedAt>
+    <CreatedBy>madhans@google.com</CreatedBy>
+    <Description>An API proxy that enforces OAuth 2.0 Client Credential Grant flow</Description>
+    <DisplayName>oauth</DisplayName>
+    <LastModifiedAt>1547005824212</LastModifiedAt>
+    <LastModifiedBy>madhans@google.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:8e3bc0ad75401f67760824bb4ac37f581f86a669c3ca9e23b3d0e3eaa418f7ff7f3e400abcb473ea9e6d742e8372068d232325a4b5d4147a9f2fed5b0656c7ba</ManifestVersion>
+    <Policies>
+        <Policy>GenerateAccessTokenClient</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

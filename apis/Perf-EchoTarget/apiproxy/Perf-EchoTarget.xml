@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="2" name="Perf-EchoTarget">
+    <Basepaths>/perf/v1/info</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1546996616978</CreatedAt>
+    <CreatedBy>madhans@google.com</CreatedBy>
+    <Description>Perf Testing proxy for an echo service</Description>
+    <DisplayName>Perf-EchoTarget</DisplayName>
+    <LastModifiedAt>1546996616978</LastModifiedAt>
+    <LastModifiedBy>madhans@google.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:3e30d2329911b3d00692c949727d7beefdffa0c788578a1799ce604044463ab7b5230edda0d4661bdde83a9afdca9b0c757cfaab272719178b0846cccd0d1aaf</ManifestVersion>
+    <Policies>
+        <Policy>SpikeArrest</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>HTTPBin</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

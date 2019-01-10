@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="GenerateAccessTokenClient" version="SHA-512:22fd75c0fc663659ff4fe267eba26201d0eee51341ed8a52839ad8190cd0db3208f1dac9ad58df2f3caef2f4da1fbf87951f7c296d03738acfca2a4abbefaa66"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:a464cf7f5e8af00ef0de05bdcdabbe508c87b526a6d7a5a5ac516ba83f89f4a14459fd4d8d36a0321ab70c81b302921eb36875e6bd3b4d25d55e11931dad878c"/>
+    </ProxyEndpoints>
+    <Resources/>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:0e268f8bdb37f45d73e7c8e23a1ec05f9acff2b89dc66b68b2b9db60ac240bef6bfac1b8be5005d99dd1f63bbcd545f1c1a57c031b87f5d8dcc29724729f9df2"/>
+    </TargetEndpoints>
+</Manifest>
